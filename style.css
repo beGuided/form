@@ -9,46 +9,6 @@ body{
 }
 
 /* for site navigtion  start */
-/* .nav-background{
-    background-color:black;
-  
-    color: white;
-    height: 20;
- 
-    
-}
-
-.header-nav {
-display: flex;
-flex-wrap: wrap;
-}
-.l-part {
-     
-}
-.r-part{
- 
-    flex-direction: row-reverse;
-    
-
-
-}
-
-.col-4{
-    width:25%;
-    
-}
-
-.col-3{
-    width:33.3%;
-}
-
-.col-2{
-    width:50%;
-}
-
-.col-1{
-    width:100%;
-} */
 
 
 
@@ -80,8 +40,6 @@ span{
 
 /* 
 form styling */
-
-
 
 input[type=text], select {
     width: 100%;

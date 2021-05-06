@@ -5,15 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
     <title>fcc survey form</title>
+
 </head>
 
 <body>
-    <div class="nav-background">
+    
+    <!-- site navigtion  start-->
+
+    <!-- <div class="nav-background">
         <div class="header-nav">
-            <div class="l-part header-nav col-2">
+            <div class="l-part header-nav col-2"> -->
+                
                 <!-- left part -->
-                <div class="col-4">
+                <!-- <div class="col-4">
                     <div class="col-1"">
                         <p>logo</p>
                     </div>
@@ -29,29 +36,33 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
 
 
             <!-- left part end -->
 
-            <!-- right part -->
-            <div class="r-part header-nav col-2">
+            
+            <!-- right part start-->
+            <!-- <div class="r-part header-nav col-2">
                 
                 <a> icon</a>
                 <a>Sign up</a>
                 <a> Log in</a>
-            </div>
+            </div> -->
 
-            <!-- right part -->
 
-        </div>
+            <!-- right part end-->
 
-    </div>
+        <!-- </div>
+
+    </div> -->
+
+    <!-- site navigation end -->
 
     <div id="title">
         <h1>freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <p><span>Thank you for taking the time to help us improve the platform</span></p>
     </div>
 
    
@@ -86,15 +97,19 @@
                         </div>
     
                         <div>
-                            <label>would you recommend freeCodeCamp to a friend?</label>
-                            <br>
-                           
-                            <input type="radio" value="definitely">Definitely<br>
-                            <input type="radio" value="Maybe">Maybe<br>
-                            <input type="radio" value="Not sure">Not sure<br> 
+                            <p>would you recommend freeCodeCamp to a friend?</p>
+                        
+
+                            <input type="radio" id="definitely" name="recomend" value="definitely"> 
+                            <label>Definitely</label><br>
+                            <input type="radio" id="Maybe" name="recomend" value="Maybe">
+                            <label>Maybe</label><br>
+                            <input type="radio" id="Not-sure" name="recomend" value="Not sure">
+                            <label>Not sure</label>
                         </div>
+                        <br> 
     
-                        <br>
+                       
                         <div>
                             <label>what is your favorite feature of freeCodeCamp?</label>
                             <br>
@@ -111,9 +126,9 @@
     
                         <!-- check-box start -->
                         <div>
-                            <p>what would you like to see improved? <span></span>(check all that apply)<span></span></p>
+                            <p>what would you like to see improved? &nbsp (check all that apply)</p>
                           
-                            <!-- <label class="container">Front-end Projects
+                             <label class="container">Front-end Projects
                                 <input type="checkbox" >
                                 <span class="checkmark"></span>
                               </label>
@@ -157,11 +172,11 @@
                               <label class="container">Additional Courses
                                 <input type="checkbox" >
                                 <span class="checkmark"></span>
-                              </label> -->
+                              </label> 
 
 
-                            <h3>
-                            <input type="checkbox" value="definitely">Front-end Projects<br>
+                           
+                            <!-- <input type="checkbox" value="definitely">Front-end Projects<br>
                             <input type="checkbox" value="Maybe">Back-ends Project<br>
                             <input type="checkbox" value="D-visual">Data Visualization<br>
                             <input type="checkbox" value="Challenges">Challenges<br>
@@ -171,8 +186,8 @@
                             <input type="checkbox" value="City Meetups ">City Meetups<br>
                             <input type="checkbox" value=" Wiki">Wiki<br>
                             <input type="checkbox" value="Forume">Forume<br>
-                            <input type="checkbox" value="Additional Courses">Additional Courses<br>
-                        </h3>
+                            <input type="checkbox" value="Additional Courses">Additional Courses<br> -->
+                        
                         </div>
                         <!-- check-box end -->
                         <br>

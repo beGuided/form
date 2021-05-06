@@ -1,16 +1,17 @@
 
 body{
-    background-color: grey;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     margin: 0;
-    background-image: url("images/site-bg.jpg");
+    background-image: url("images/bg-img.jpeg");
     background-size: cover;
     
     
 }
-.nav-background{
+
+/* for site navigtion  start */
+/* .nav-background{
     background-color:black;
-    /* width: 100%; */
+  
     color: white;
     height: 20;
  
@@ -47,11 +48,17 @@ flex-wrap: wrap;
 
 .col-1{
     width:100%;
-}
+} */
+
+
+
+/* for site navigtion  end */
+
+
 .form-bg{
     color: white;
      background: rgba(0, 0, 0, 0.5);
-     width: fit-content;
+     width:fit-content;
      padding: 20px;
      margin: 20px auto ;
      display:flex;
@@ -59,6 +66,9 @@ flex-wrap: wrap;
       
 }
 span{
+    font-family: 'Lato', sans-serif;
+    font-weight:200px;
+    font-style: italic;
     
 }
 
@@ -112,7 +122,7 @@ input[type=text], select {
 
   /* The container */
   
-/* .container {
+.container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -124,18 +134,18 @@ input[type=text], select {
     -ms-user-select: none;
     user-select: none;
   }
-   */
+   
   /* Hide the browser's default checkbox */
-  /* .container input {
+   .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  } */
+  } 
   
   /* Create a custom checkbox */
-  /*.checkmark {
+  .checkmark {
      position: absolute;
     top: 0;
     left: 0;
@@ -143,27 +153,27 @@ input[type=text], select {
     width: 20px;
     background-color: #ffffff;
   }
-   */
+   
   
   /* When the checkbox is checked, add a blue background */
-  /* .container input:checked ~ .checkmark {
+  .container input:checked ~ .checkmark {
     background-color: #2196F3;
   }
-   */
+   
   /* Create the checkmark/indicator (hidden when not checked) */
-  /* .checkmark:after {
+  .checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  } */
+  } 
   
   /* Show the checkmark when checked */
-  /* .container input:checked ~ .checkmark:after {
+  .container input:checked ~ .checkmark:after {
     display: block;
-  } */
+  } 
   
   /* Style the checkmark/indicator */
-  /* .container .checkmark:after {
+  .container .checkmark:after {
     left: 5px;
     top: 3px;
     width: 5px;
@@ -174,7 +184,7 @@ input[type=text], select {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
- */
+ 
 
 
 

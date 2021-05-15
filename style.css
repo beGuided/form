@@ -4,6 +4,8 @@ body{
     margin: 0;
     background-image: url("images/bg-img.jpeg");
     background-size: cover;
+    background-position: center;
+   
     
     
 }
@@ -58,6 +60,9 @@ input[type=text], select {
    
 
   }
+  .text-area{
+    width: 100%;
+}
   
   input[type=submit] {
     width: 100%;
@@ -82,8 +87,5 @@ input[type=text], select {
    height: 20px;
   }
  
-.container{
-  width: 25em;
-}
 
- 
+

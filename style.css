@@ -16,6 +16,10 @@ body{
 
 /* for site navigtion  end */
 
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 .form-bg{
     color: white;
@@ -58,7 +62,6 @@ input[type=text], select {
     color: grey;
     font-size: 15px;
    
-
   }
   .text-area{
     width: 100%;
@@ -87,5 +90,16 @@ input[type=text], select {
    height: 20px;
   }
  
+.comment{
+  margin-top: 15px;
+}
 
+@media screen and(max-width:700px){
+  .container{
+    max-width: 650px;
+    margin: 0 auto;
+  }
+ 
+  
+}
 

@@ -16,6 +16,8 @@ body{
 
 /* for site navigtion  end */
 
+
+
 .container{
   max-width: 1000px;
   margin: 0 auto;
@@ -24,10 +26,9 @@ body{
 .form-bg{
     color: white;
      background: rgba(0, 0, 0, 0.5);
-     width:fit-content;
+     max-width:750px;
      padding: 20px;
      margin: 20px auto ;
-     display:flex;
      border-radius: 5px;
       
 }
@@ -94,12 +95,12 @@ input[type=text], select {
   margin-top: 15px;
 }
 
-@media screen and(max-width:700px){
+
+@media (max-width:700px){
+
   .container{
     max-width: 650px;
-    margin: 0 auto;
+    margin:0 auto;
   }
- 
   
 }
-
